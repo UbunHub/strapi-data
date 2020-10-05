@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shares",
+  "info": {
+    "name": "Share"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "stores": {
+      "collection": "store"
+    }
+  }
+}

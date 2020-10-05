@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stores",
+  "info": {
+    "name": "Store"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "price": {
+      "type": "float"
+    },
+    "num": {
+      "type": "integer"
+    }
+  }
+}
